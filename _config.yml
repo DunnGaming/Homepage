@@ -1,15 +1,5 @@
-# setting env to production will minify the html
-#env: production
-env: dev
-
-exclude: ['Gruntfile.js', 'package.json', 'readme.md', 'sftpCache.json' ,'node_modules','us-army-homepage']
-    
-gems:
-  - octopress-minify-html
-  
-sass:
-  sass_dir: _scss
-  style: compressed
-
-title: Army Families
-
+title: Tactile theme
+description: Tactile is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-tactile
